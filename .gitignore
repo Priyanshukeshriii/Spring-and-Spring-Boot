@@ -29,3 +29,23 @@ bin/
 .DS_Store
 
 Servlet/Servlet_04/src/main/java/Model/JdbcUtil.java
+
+# Target compilation folders (Matches any nested Maven target directories)
+**/target/
+target/
+*.class
+
+# IntelliJ IDEA specific files and directories
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Tomcat & Server deployment caches
+.smarttomcat/
+remote_execution_agent/
+
+# OS generated files
+.DS_Store
+Thumbs.db
