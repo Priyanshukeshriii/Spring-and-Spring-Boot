@@ -27,7 +27,7 @@ public class FirstStandradApp {
         transaction = session.beginTransaction();
 
         Student s3  = new Student();
-        s3.setSid(3);
+        s3.setSid(4);
         s3.setSname("priyanshu");
         s3.setScity("Katihar");
 

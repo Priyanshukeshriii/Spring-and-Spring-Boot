@@ -49,3 +49,6 @@ remote_execution_agent/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Hide local database credentials
+**/hibernate.properties
