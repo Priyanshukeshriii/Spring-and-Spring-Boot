@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+Servlet/Servlet_04/src/main/java/Model/JdbcUtil.java
