@@ -6,7 +6,8 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.hbm2ddl.auto">update</property>
-
+        <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+        <property name="hibernate.cache.use_second_level_cache">ture</property>
         <mapping class="com.hibernate.model.Student"/>
     </session-factory>
 </hibernate-configuration>
