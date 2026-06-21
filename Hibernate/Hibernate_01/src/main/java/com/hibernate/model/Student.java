@@ -1,9 +1,6 @@
 package com.hibernate.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "student")
@@ -15,6 +12,7 @@ public class Student {
     @Column(name = "SNAME")
     private String sname;
 
+//    @Transient  If we use transit Then that column will not appear in our database
     @Column(name = "SCITY")
     private  String scity;
 
