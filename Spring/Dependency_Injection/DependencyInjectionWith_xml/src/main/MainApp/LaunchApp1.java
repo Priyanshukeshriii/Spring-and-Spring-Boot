@@ -12,7 +12,9 @@ public class LaunchApp1 {
 //    can load only one config file in one object
     public static void main(String[] args) {
 
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationconfig.xml");
+//        ApplicationContext context = new ClassPathXmlApplicationContext("applicationconfig.xml");
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationconfig4.xml");
         Coder c = context.getBean(Coder.class);
         Boolean status = c.buyTheCourse(2134);
         if(status){

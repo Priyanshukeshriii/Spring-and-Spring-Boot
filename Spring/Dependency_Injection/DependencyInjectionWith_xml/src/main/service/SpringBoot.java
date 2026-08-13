@@ -5,9 +5,10 @@ public class SpringBoot implements ICourse {
         System.out.println("SpringBoot constructor is called");
     }
 
+
     @Override
     public Boolean getTheCourse(Double amount) {
-        System.out.println("Java Course is purchased and fee paid is" + amount);
+        System.out.println("Spring boot Course is purchased and fee paid is" + amount);
         return true;
     }
 }
