@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="emp1" class="com.ParameterizedConstructor.services.Employee">
+        <constructor-arg name="emId" value="1" type="int"/>
+        <constructor-arg name="name" value="Ujjwal"/>
+        <constructor-arg name="salary" value="1000000" type="Double"/>
+        <constructor-arg name="city" value="Patna"/>
+    </bean>
+    <bean id="emp2" class="com.ParameterizedConstructor.services.Employee">
+    <constructor-arg index="1" value="1" type="int"/>
+    <constructor-arg index="2" value="Rupam"/>
+    <constructor-arg index="0" value="hochnpur"/>
+        <constructor-arg index="3" value="1000000" type="Double"/></bean>
+    <bean id="emp3" class="com.ParameterizedConstructor.services.Employee">
+        <constructor-arg  value="katihar"/>
+        <constructor-arg  value="1" type="int"/>
+        <constructor-arg  value="Riya"/>
+        <constructor-arg  value="1000000" type="Double"/>
+</bean>
+
+</beans>
