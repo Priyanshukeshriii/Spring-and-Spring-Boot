@@ -11,8 +11,7 @@ public class Springboot01Application {
 	public static void main(String[] args) {
 
 		ConfigurableApplicationContext context = SpringApplication.run(Springboot01Application.class, args);
-		Greeting greeting = context.getBean(Greeting.class);
-		Boolean status = greeting.Greet("Priyanshu");
+
 	}
 
 }
